@@ -195,11 +195,9 @@ function Index() {
           <a
             className="btn mail rise"
             style={d(".65s")}
-            href="mailto:missspoilerbrazil@gmail.com"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href = "mailto:missspoilerbrazil@gmail.com";
-            }}
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=missspoilerbrazil@gmail.com"
+            target="_blank"
+            rel="noopener"
           >
             <p className="small">Contato</p>
             <b>missspoilerbrazil@gmail.com</b>
