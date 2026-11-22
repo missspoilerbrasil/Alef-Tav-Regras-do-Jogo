@@ -192,7 +192,15 @@ function Index() {
             <b>@missspoilerbrasil</b>
             <span className="arrow">→</span>
           </a>
-          <a className="btn mail rise" style={d(".65s")} href="mailto:missspoilerbrazil@gmail.com">
+          <a
+            className="btn mail rise"
+            style={d(".65s")}
+            href="mailto:missspoilerbrazil@gmail.com"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "mailto:missspoilerbrazil@gmail.com";
+            }}
+          >
             <p className="small">Contato</p>
             <b>missspoilerbrazil@gmail.com</b>
             <span className="arrow">→</span>
